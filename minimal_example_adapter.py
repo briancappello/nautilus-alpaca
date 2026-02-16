@@ -3,8 +3,14 @@ from __future__ import annotations
 from nautilus_trader.config import InstrumentProviderConfig, TradingNodeConfig
 from nautilus_trader.live.node import TradingNode
 
-from nautilus_alpaca_adapter.config import AlpacaLiveDataClientConfig, AlpacaLiveExecClientConfig
-from nautilus_alpaca_adapter.factories import AlpacaDataClientFactory, AlpacaExecClientFactory
+from nautilus_alpaca_adapter.config import (
+    AlpacaLiveDataClientConfig,
+    AlpacaLiveExecClientConfig,
+)
+from nautilus_alpaca_adapter.factories import (
+    AlpacaDataClientFactory,
+    AlpacaExecClientFactory,
+)
 from strategy import ScalpingStrategy, ScalpingStrategyConfig
 
 

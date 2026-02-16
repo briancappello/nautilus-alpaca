@@ -3,6 +3,8 @@ from __future__ import annotations
 from datetime import datetime
 from typing import Dict, List
 
+from numpy import double
+
 from nautilus_trader.common.enums import LogColor
 from nautilus_trader.config import StrategyConfig
 from nautilus_trader.core.message import Event
@@ -22,7 +24,6 @@ from nautilus_trader.model.objects import Price
 from nautilus_trader.model.orders.limit import LimitOrder
 from nautilus_trader.model.position import Position
 from nautilus_trader.trading.strategy import Strategy
-from numpy import double
 
 
 # *** THIS IS A TEST STRATEGY WITH NO ALPHA ADVANTAGE WHATSOEVER. ***
